@@ -52,7 +52,7 @@ short arrResults\[3]\[3] = {
 
 return (enWinner)arrResults\[PlayerChoice - 1]\[ComputerChoice - 1];
 ```
-\##Here is how game experience looks:
+\## 👾Here is how game experience looks:
 ```
 How Many Rounds 1 to 10 ? : 3
 

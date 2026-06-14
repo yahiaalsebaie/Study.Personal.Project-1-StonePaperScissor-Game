@@ -50,7 +50,46 @@ short arrResults\[3]\[3] = {
 
 };
 
-
-
 return (enWinner)arrResults\[PlayerChoice - 1]\[ComputerChoice - 1];
+```
+\##Here is how game experience looks:
+```
+How Many Rounds 1 to 10 ? : 3
 
+Your Choice : [1]:Stone , [2]:Paper , [3]:Scissor >> 3
+
+.----------------Round[1]----------------.
+Player Choice   : Scissor
+Computer Choice : Stone
+Round Winner    : [Computer].
+.----------------------------------------.
+
+Your Choice : [1]:Stone , [2]:Paper , [3]:Scissor >> 2
+
+.----------------Round[2]----------------.
+Player Choice   : Paper
+Computer Choice : Paper
+Round Winner    : [Draw].
+.----------------------------------------.
+
+Your Choice : [1]:Stone , [2]:Paper , [3]:Scissor >>
+1
+
+.----------------Round[3]----------------.
+Player Choice   : Stone
+Computer Choice : Scissor
+Round Winner    : [Player].
+.----------------------------------------.
+                        --------------------------------------------------------------
+                                                G a m e  O v e r
+                        --------------------------------------------------------------
+                        .-----------------------[Game Results]-----------------------.
+                         Game Rounds        : 3
+                         Player won times   : 1
+                         Computer won times : 1
+                         Draw times         : 1
+                         Final Winner       : [Draw].
+                        .-------------------------------------------------------------.
+
+Do You want to play again ? [Y/N] :
+```

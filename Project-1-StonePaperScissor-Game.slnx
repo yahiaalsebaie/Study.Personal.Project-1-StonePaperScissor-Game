@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Course05-Project 1 StonePaperScissor Game/Course05-Project 1 StonePaperScissor Game.vcxproj" />
+</Solution>
